@@ -1,0 +1,203 @@
+/* Add here all your CSS customizations */
+
+.news_button{
+    text-transform: uppercase;
+    color: #3d2b1f;
+    font-size: 11px;
+    background-color: #ffc32b;
+    padding: 8px 29px 8px;
+    position: absolute;
+    border-radius: 4px;
+    box-shadow: inset 0px -23px 0px -20px #cccccc;
+    font-weight: 500;
+    font-family: Ubuntu;
+    top: 3px;
+    left: 86px;
+}
+.news_button:hover{
+    text-decoration: none;
+}
+
+/* */
+body#newspage{
+    background: url("food.png");
+    font-family: Arial, sans-serif;
+}
+.header_news {
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 44px;
+    background-image: url("bg2.png");
+    background-repeat: no-repeat;
+    background-position: center -50px;
+}
+.header_news .container{
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header_news .newslink{
+    position: absolute;
+    right: 15px;
+    top: 17px;
+}
+
+.news.container{
+    width: 1170px;
+    background-color: white;
+    padding-top: 60px;
+}
+
+li.post{
+    list-style: none;
+    margin:0;
+    padding:0;
+    margin-bottom: 41px;
+}
+.post .post_name{
+    color: #3d2b1f;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    margin-left: -3px;
+    text-decoration: none;
+    cursor:pointer;
+    padding-bottom: 8px;
+}
+.footer_news{
+    background-color:#3d2b1f;
+    width:100%;
+    height:80px;
+    color:#ad9b8f;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.footer_news .container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer_news .footer_text{
+    width: 500px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.footer_news .made_ua{
+    position: absolute;
+    margin-left: -120px;
+    top: 0px;
+    right: 0;
+}
+.footer_news .made_ua img{
+    height: 79px;
+    width: 110px;
+}
+.post{position:relative;}
+.post .post_cover{
+    width: 1101px;
+    height:340px;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size:cover;
+    margin-left:-1px;
+    margin-top: 8px;
+}
+.post .post_date{
+    background-color: #ffc32b;
+    position: absolute;
+    color: white;
+    top: 51px;
+    left: -40px;
+    width: 39px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 13px;
+    background-image: url("icon_date.png");
+    background-repeat: no-repeat;
+    background-position: center 16px;
+    padding-top: 40px;
+    padding-bottom: 14px;
+}
+.post .post_date span{
+    font-weight: bold;
+    font-size: 15px;
+}
+.post p{
+    color: #333333;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: -1px;
+    margin-top: 17px;
+    padding-bottom: 39px;
+    border-bottom: 1px solid #959595;
+    position: relative;
+}
+.post p .read_more{
+    color: white;
+    background-color: #ffc32b;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 13px;
+    padding: 5px 26px 5px 12px;
+    background-image: url("icon_more.png");
+    background-repeat: no-repeat;
+    background-position: 87px center;
+}
+.pages ul li{
+    list-style: none;
+    width: 100%;
+    box-shadow: 1px 0px 0px 0px #c3c6ca;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #c3c6ca;
+    border-bottom: 1px solid #c3c6ca;
+}
+.pages ul li a{
+    font-size: 14px;
+    color: black;
+    display: block;
+    height: 24px;
+    width: 100%;
+}
+.pages ul{
+    border: 1px solid #c3c6ca;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    height:31px;
+    border-top: none;
+    border-bottom: none;
+}
+.pages ul li.active{
+    color: white;
+    background-color: #ffc32b;
+    box-shadow: 0px 0px 0px 1px #ffc32b;
+    font-weight: bold;
+    cursor: default;
+    text-decoration: none;
+    border-top: 1px solid #ffc32b;
+    border-bottom: 1px solid #ffc32b;
+}
+.pages ul li.active a{
+    color:white;
+    text-decoration: none;
+    cursor: default;
+}
+.pages{
+    width: 218px;
+    margin: 0 auto;
+    height:31px;
+    margin-bottom: 80px;
+}
